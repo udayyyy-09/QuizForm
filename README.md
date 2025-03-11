@@ -28,9 +28,9 @@ Develop an interactive **quiz platform** where users can attempt quizzes, get in
 ## 🚀 Deployment
 This application is deployed on **Vercel/Netlify**. You can access the deployed app using the link below:
 
-🔗 **Live App:** https://quiz-form-mu.vercel.app/
+🔗 **Live App:** https://interactive-quiz-indol.vercel.app/
 
-🔗 **GitHub Repository:** https://github.com/udayyyy-09/quizForm.git
+🔗 **GitHub Repository:** https://github.com/udayyyy-09/QuizForm
 
 ---
 
