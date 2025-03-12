@@ -1,5 +1,5 @@
 //creating DB
-import { formatDate } from './helpers';
+// import { formatDate } from './helpers';
 export const initDB = () => {
     return new Promise((resolve, reject) => {
       //1st step: opening database
@@ -39,7 +39,7 @@ export const initDB = () => {
       // const date = new Date();
       // const formatDate = date.toLocaleString();
       const request = store.add({   //to add new record to Object Store
-        date: formatDate,
+        date: new Date().toISOString(),
         score: result.score,
         totalQuestions: result.totalQuestions,
         timeTaken: result.timeTaken,
@@ -59,7 +59,7 @@ export const initDB = () => {
     return new Promise((resolve, reject) => {
       const transaction = db.transaction(["quizResults"], "readonly");   //for only read the data
       const store = transaction.objectStore("quizResults");
-      const request = store.getAll(); //get all record
+      const request = store.getAll(); //get all data from object store
   
       request.onsuccess = () => resolve(request.result);
       request.onerror = () => reject("Error getting results");

@@ -4,7 +4,7 @@ import { formatDate } from "../utils/helpers"; // You'll need to create this hel
 const QuizResults = ({ score, totalQuestions, attempts, onRestart }) => {
   return (
     <div className="text-center">
-      <h2 className="text-black-700 text-3xl font-sans mb-2"> Quiz Completed! 🎉</h2>
+      <h2 className="text-black-700 text-3xl font-sans mb-2"> Quiz Completed! ✨</h2>
       <p className="text-lg mb-6 text-black-600">
         Your score: <span className="font-bold text-rose-500">{score}</span> out of{" "}
         <span className="font-bold text-rose-500">{totalQuestions}</span>
