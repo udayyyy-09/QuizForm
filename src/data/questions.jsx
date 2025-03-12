@@ -56,37 +56,37 @@ export const questions = [
     caseSensitive: false,
     explanation: "Bubble sort has a worst-case time complexity of O(n²), where n is the number of elements."
   },
-  // {
-  //   id: 5,
-  //   question: "The time complexity of inserting an element at the beginning of a singly linked list is ________.",
-  //   type: "fill-string",
-  //   answer: "O(1)",
-  //   caseSensitive: false,
-  //   explanation: "Inserting an element at the beginning of a singly linked list is a constant-time operation."
-  // },
-  // // New Fill-in-the-blank (String) questions
-  // {
-  //   id: 6,
-  //   question: "What sorting algorithm uses a divide-and-conquer strategy with O(n log n) average time complexity? (Enter the full algorithm name)",
-  //   type: "fill-string",
-  //   answer: "merge sort",
-  //   caseSensitive: false,
-  //   explanation: "Merge sort divides the input array into halves, sorts them separately, and then merges them."
-  // },
-  // {
-  //   id: 7,
-  //   question: "Which data structure would you use to implement a 'Undo' feature in a text editor? (Enter a singular term)",
-  //   type: "fill-string",
-  //   answer: "stack",
-  //   caseSensitive: false,
-  //   explanation: "A stack is ideal for undo operations because it follows Last-In-First-Out order."
-  // },
-  // {
-  //   id: 8,
-  //   question: "Complete this common algorithm paradigm: '_________ programming' is used when we break down a problem into overlapping subproblems.",
-  //   type: "fill-string",
-  //   answer: "dynamic",
-  //   caseSensitive: false,
-  //   explanation: "Dynamic programming is used when a problem can be broken down into overlapping subproblems that are solved only once and results cached."
-  // }
+  {
+    id: 5,
+    question: "The time complexity of inserting an element at the beginning of a singly linked list is ________.",
+    type: "fill-string",
+    answer: "O(1)",
+    caseSensitive: false,
+    explanation: "Inserting an element at the beginning of a singly linked list is a constant-time operation."
+  },
+  // New Fill-in-the-blank (String) questions
+  {
+    id: 6,
+    question: "What sorting algorithm uses a divide-and-conquer strategy with O(n log n) average time complexity? (Enter the full algorithm name)",
+    type: "fill-string",
+    answer: "merge sort",
+    caseSensitive: false,
+    explanation: "Merge sort divides the input array into halves, sorts them separately, and then merges them."
+  },
+  {
+    id: 7,
+    question: "Which data structure would you use to implement a 'Undo' feature in a text editor? (Enter a singular term)",
+    type: "fill-string",
+    answer: "stack",
+    caseSensitive: false,
+    explanation: "A stack is ideal for undo operations because it follows Last-In-First-Out order."
+  },
+  {
+    id: 8,
+    question: "Complete this common algorithm paradigm: '_________ programming' is used when we break down a problem into overlapping subproblems.",
+    type: "fill-string",
+    answer: "dynamic",
+    caseSensitive: false,
+    explanation: "Dynamic programming is used when a problem can be broken down into overlapping subproblems that are solved only once and results cached."
+  }
 ];
