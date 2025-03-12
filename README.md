@@ -19,6 +19,7 @@ Develop an interactive **quiz platform** where users can attempt quizzes, get in
 
 ### 📊 **Progress Tracking**
 - Displays a **scoreboard** at the end of each quiz.
+- User can check their last quiz attempts to check their wrong questions and can work upon it.
 
 ### 🎁 **Bonus Challenges**
 - Saves quiz history using **IndexedDB**.
